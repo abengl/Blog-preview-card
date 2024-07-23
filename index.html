@@ -1,27 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="styles.css">
-  <title>Blog preview card</title>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/blog.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Blog preview card</title>
+  </head>
+  <body>
+    <main>
+      <div class="card">
+        <img
+          src="assets/images/illustration-article.svg"
+          alt="abstract image of the card blog"
+          class="card__image"
+        />
+        <span class="card__label">Learning</span>
+        <span class="card__date">Published 21 Dec 2023</span>
+        <h1 class="card__title">HTML & CSS foundations</h1>
+        <p class="card__description">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+        <div class="card__author">
+          <img
+            src="assets/images/image-avatar.webp"
+            alt="profile picture of the author"
+            class="card__author__picture"
+          />
+          <h2 class="card__author__name">Greg Hooper</h2>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span class="footer__text">Developed by Alessandra Godoy</span>
+      <a href="https://github.com/abengl" class="footer__link"
+        ><img src="assets/images/github.svg" alt="32" id="github"/></a>
+    </footer>
+  </body>
 </html>
